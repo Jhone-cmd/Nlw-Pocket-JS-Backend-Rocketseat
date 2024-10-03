@@ -1,5 +1,5 @@
 # App In.Orbit
-    O aplicativo In.Orbit fornece um gerenciamento de metas para o usuário ter objetivos claros durante a semana. Esse aplicativo será feito no evento da 17º edição da RocketSeat - NLW Pocket, trilha iniciante;
+    O aplicativo In.Orbit fornece um gerenciamento de metas para o usuário ter objetivos claros durante a semana. Esse aplicativo será feito no evento da 17º edição da RocketSeat - NLW Pocket, trilha intermediário;
 
     Na trilha intermediário foi separada entre o back-end da aplicação e o front-end, em que serão utilizadas as tecnologias mais recentes. 
 
