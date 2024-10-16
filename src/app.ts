@@ -1,4 +1,5 @@
 import fastify from "fastify";
+import type { FastifyInstance } from "fastify";
 import fastifyCors from "@fastify/cors";
 import {
   serializerCompiler,
@@ -9,7 +10,7 @@ import { pendingGoalsRoute } from "./http/routes/pending-goals-route";
 import { createGoalCompletionRoute } from "./http/routes/create-goal-completion-route";
 import { summaryRoute } from "./http/routes/summary-route";
 
-export const app = fastify();
+export const app: FastifyInstance = fastify();
 
 app.register(fastifyCors, {
   origin: "*",
