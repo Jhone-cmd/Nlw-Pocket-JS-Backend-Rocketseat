@@ -10,6 +10,8 @@ export async function createGoalCompletionRoute(app: FastifyInstance) {
     "/completions",
     {
       schema: {
+        summary: "Create a Goal Completion",
+        tags: ["Goals"],
         body: z.object({
           goalId: z.string().cuid2(),
         }),

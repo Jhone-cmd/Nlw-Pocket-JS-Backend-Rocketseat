@@ -8,6 +8,8 @@ export async function createGoalRoute(app: FastifyInstance) {
     "/goals",
     {
       schema: {
+        summary: "Create a Goal",
+        tags: ["Goals"],
         body: z.object({
           title: z.string(),
           desiredWeeklyFrequency: z.number(),

@@ -7,6 +7,8 @@ export async function summaryRoute(app: FastifyInstance) {
     "/summary",
     {
       schema: {
+        summary: "Summary",
+        tags: ["Goals"],
         response: 200,
       },
     },

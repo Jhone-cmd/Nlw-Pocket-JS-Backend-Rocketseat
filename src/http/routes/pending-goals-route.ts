@@ -7,6 +7,8 @@ export async function pendingGoalsRoute(app: FastifyInstance) {
     "/pending-goals",
     {
       schema: {
+        summary: "Pending Goals",
+        tags: ["Goals"],
         response: 200,
       },
     },
