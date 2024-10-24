@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch --env-file .env src/server.ts",
-    "start": "node --env-file .env build/server.js",
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
     "build": "tsup src --out-dir build",
     "seed": "tsx --env-file .env src/db/seed.ts"
   },
